@@ -1,0 +1,1 @@
+winlog.event_id: 8 and winlog.event_data.TargetImage: *.exe and not winlog.event_data.SourceImage: *System32*
