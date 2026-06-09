@@ -1,0 +1,1 @@
+winlog.event_id: 3 and winlog.event_data.Image: (*powershell.exe or *pwsh.exe) and not winlog.event_data.DestinationIp: (10.* or 192.168.* or 172.16.*)
