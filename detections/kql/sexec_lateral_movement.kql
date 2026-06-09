@@ -1,0 +1,1 @@
+winlog.event_id: 1 and (winlog.event_data.Image: *psexec* or winlog.event_data.Image: *PsExesvc*)
